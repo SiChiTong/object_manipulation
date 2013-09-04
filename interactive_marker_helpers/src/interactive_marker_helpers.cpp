@@ -114,7 +114,7 @@ void add6DofControl( visualization_msgs::InteractiveMarker &msg, bool fixed )
   visualization_msgs::InteractiveMarkerControl control2;
   control2.always_visible = true;
   control2.interaction_mode = visualization_msgs::InteractiveMarkerControl::MOVE_ROTATE_3D;
-  control2.markers.push_back( makeBox(msg.scale / 2) );
+  control2.markers.push_back( makeBox(msg.scale / 3) );
   msg.controls.push_back( control2 );
 
 }
