@@ -56,7 +56,7 @@ visualization_msgs::Marker makeBox( float scale )
   marker.color.r = 1.0;
   marker.color.g = 1.0;
   marker.color.b = 1.0;
-  marker.color.a = 1.0;
+  marker.color.a = 0.0;
 
   return marker;
 }
